@@ -8,7 +8,7 @@ $(NAME): $(ENTRY_POINT)
 	deno compile $(PERMISSIONS) $(ENTRY_POINT)
 
 run: all
-	@./ft_turing machines/palindrome.json "0" || true
+	@./ft_turing machines/palindrome.json "000" || true
 
 clean:
 	rm -f $(NAME)
