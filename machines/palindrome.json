@@ -1,0 +1,19 @@
+{
+    "name": "palindrome",
+    "alphabet": [ "1", ".", "0"],
+    "blank": ".",
+    "states": [ "start", "zero", "one", "HALT" ],
+    "initial": "start",
+    "finals": [ "HALT" ],
+    "transitions": {
+        "start": [
+            { "read": "0", "to_state": "zero", "write": "1", "action": "RIGHT" }
+        ],
+        "zero" : [
+            { "read": ".", "to_state": "one", "write": ".", "action": "RIGHT" }
+        ],
+        "one": [
+            { "read": ".", "to_state": "HALT", "write": ".", "action": "RIGHT" }
+        ] 
+    }
+}
