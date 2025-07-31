@@ -1,6 +1,6 @@
 {
     "name": "even_zeros",
-    "alphabet": [ "0", "." ],
+    "alphabet": [ "0", ".", "n", "y" ],
     "blank": ".",
     "states": [  "start", "secondzero", "ACCEPT" ],
     "initial": "start",

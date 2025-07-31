@@ -1,6 +1,6 @@
 {
     "name": "equal",
-    "alphabet": ["1", "0", "."],
+    "alphabet": ["1", "0", ".", "n", "y"],
     "blank": ".",
     "states": ["start", "skip_zero", "skip_one", "delete_one", "come_back", "ACCEPT"],
     "initial": "start",

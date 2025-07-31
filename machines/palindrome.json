@@ -1,6 +1,6 @@
 {
     "name": "palindrome",
-    "alphabet": [ "1", ".", "0"],
+    "alphabet": [ "1", ".", "0", "n", "y" ],
     "blank": ".",
     "states": [ "scan_first", "scan_right_for_zero", "check_last_zero", "scan_right_for_one", "check_last_one", "return_to_start", "ACCEPT" ],
     "initial": "scan_first",
