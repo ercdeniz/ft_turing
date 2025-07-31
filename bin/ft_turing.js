@@ -11,8 +11,8 @@ async function main() {
 
         validateMachine(machineData);
         validateInput(args.input, machineData.alphabet, machineData.blank);
-        const arr = executeTuring(machineData, args.input, machineData.initial);
-        printTuringData(machineData, arr);
+        const history = executeTuring(machineData, args.input, machineData.initial);
+        printTuringData(machineData, history);
     } catch (error) {
         console.error("Error:", error.message);
         Deno.exit(1);
